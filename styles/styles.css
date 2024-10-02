@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+.degrade{
+    background-image: linear-gradient(grey,white);
+}
+header{
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    font-family: Arial;
+    align-items: center ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.logo>h1{
+    font-size: x-large;
+}
+.milieu{
+    display: flex;
+    gap: 10px;
+    font-style: italic;
+}
+.droite>button{
+    color: blue;  
+    height: 40px;
+    width: 160px;
+    border-color: blue;
+    background-color: transparent;
+}
+.accueil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    width: 500px;
+}
+.demo{
+    color: white;
+    height: 40px;
+    width: 160px;
+    background-color: blue;
+}
+.inscrire{
+    color: blue;
+    border-color: blue ;
+    height: 40px;
+    width: 160px;
+}
+.bouton{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.bouton1{
+    color: rgb(255, 255, 255);  
+    padding: 25px;
+    border-color: blue;
+    background-color: blue;
+}
+.bouton2{
+    color: blue;
+    padding: 20px;
+    border-color: blue ;
+    background-color: transparent;
+}
+.accueil>img{
+    width: 700px;
+    height: 500px;
+}
+.rond{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.rond>div{
+    padding: 80px;
+    border-radius: 100%;
+    background-image: linear-gradient(blue, purple);
+}
+footer{
+    background-color: #1a1919;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo2{
+    display: flex;
+    align-items: center;
+}
+
+
